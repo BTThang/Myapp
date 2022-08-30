@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "819704841184",
+    "firebase_url": "https://myguide-547df-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "myguide-547df",
+    "storage_bucket": "myguide-547df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819704841184:android:85f209b4da7502e53ea185",
+        "android_client_info": {
+          "package_name": "com.example.myguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819704841184-nn24gdp0miue534poipq15rfugi1bros.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myguide",
+            "certificate_hash": "66c8dba53d21edc1965469c210c99ea29f366afe"
+          }
+        },
+        {
+          "client_id": "819704841184-8iv5jb995j5bhfnafjbbt8s3iouthtt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWvEvuI5fjFmAqd_1MO3DHSUW4AUNCAsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819704841184-8iv5jb995j5bhfnafjbbt8s3iouthtt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

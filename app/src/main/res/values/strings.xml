@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">MyGuide</string>
+    <string name="logo_name">Get A Way</string>
+    <string name="slogan_name">Everything your city holds in here!</string>
+    <string name="powered_by">TMT Solution</string>
+
+    <!--    String for on boarding screen-->
+
+    <!--    Titles-->
+    <string name="first_slide_title">Search Your Location</string>
+    <string name="second_slide_title">Make A Call</string>
+    <string name="third_slide_title">Add Missing Place</string>
+    <string name="fourth_slide_title">Sit Back And Enjoy</string>
+
+    <!--    Descriptions-->
+    <string name="first_slide_desc">You can search any place nearby or with-in the specified city. We will display specific or all related shops tp match you search</string>
+    <string name="second_slide_desc">We provide almost all the numbers of all departments and shops registered with us. You can perform</string>
+    <string name="third_slide_desc">If you have a shop or somethings and want to be part of our growing industry then add your place</string>
+    <string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then you don/t have to worry</string>
+
+    <!--    Button-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <!--    sString for Dashboard-->
+
+    <!--    Categories-->
+    <string name="hotels">Hotels</string>
+    <string name="rest">Restaurants</string>
+    <string name="banks">Banks</string>
+    <string name="airport">Airports</string>
+    <string name="school">School</string>
+    <string name="shop">Store</string>
+    <string name="car_rent">CAR RENT</string>
+    <string name="expand_all">EXPAND ALL</string>
+
+    <!--    Tittles and Description-->
+
+    <string name="featured_locations">All features Location</string>
+    <string name="featured_locations_description">All the location that are featured and have the top demand in town!</string>
+    <string name="most_viewed_locations">Most Viewed</string>
+    <string name="categories">Categories</string>
+    <string name="View_all">View All</string>
+    <string name="search_text">Search...</string>
+    <string name="home">HOME</string>
+    <string name="login">LOGIN</string>
+    <string name="profile">PROFILE</string>
+    <string name="logout">LOGOUT</string>
+    <string name="add_missing_place">ADD MISSING PLACE</string>
+    <string name="share">SHARE</string>
+    <string name="rate_us">RATE US</string>
+    <string name="food">FOOD</string>
+    <string name="store">STORE</string>
+    <string name="doctor">DOCTOR</string>
+
+    <!--    General String-->
+    <string name="sign_up">Sign Up</string>
+    <string name="retailer_heading">Grow\nYour Business</string>
+    <string name="retailer_tag_line">We wil help you to grow your business using..............</string>
+    <string name="how_we_work">How we work?</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot PassWord</string>
+    <string name="user_name">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+
+    <!--    OTP Screen-->
+    <string name="otp_code_text">Code</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="otp_description_text">Enter one time password sent on 0967744***</string>
+
+    <!--    Forget password-->
+    <string name="forget_password_detail">Provide your account email for which you want to reset your password</string>
+    <string name="make_selection_detail">Select which contact detail should we use to reset your password?</string>
+    <string name="make_selection">MAKE SELECTION</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

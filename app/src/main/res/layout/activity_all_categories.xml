@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".User.AllCategories"
+    android:background="@color/lightwhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/generation_back_icon" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textSize="30sp"
+            android:fontFamily="@font/calistoga"
+            android:textAllCaps="true"
+            android:padding="10dp"/>
+
+
+        <!--            Categories car background-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/blue_sky"
+                android:layout_margin="20dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/car_rent"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/baloo"
+                    android:textColor="@color/black"
+                    android:padding="25dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="@string/expand_all"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="152dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-20dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/car_icon" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#00000000"
+            android:layout_margin="20dp"
+            app:cardElevation="8dp">
+
+
+            <!--        Categories food background-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:background="@drawable/restaurant_background">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/categories_restaurant_icon"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/food"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/baloo"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:padding="25dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="@string/expand_all"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+<!--        Categories store background-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/store_icon">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/categories_store" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/store"
+                android:textSize="30sp"
+                android:fontFamily="@font/baloo"
+                android:textColor="@color/black"
+                android:layout_alignParentLeft="true"
+                android:padding="25dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="#00000000"
+                android:padding="20dp"
+                android:text="@string/expand_all"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+
+
+
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#00000000"
+            android:layout_margin="20dp"
+            app:cardElevation="8dp">
+
+
+            <!--        Categories food background-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:background="@drawable/hopital_background">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/doctor"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/baloo"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:padding="25dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="@string/expand_all"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

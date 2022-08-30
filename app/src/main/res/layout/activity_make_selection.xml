@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="30dp"
+    tools:context=".Common.LoginSignup.ForgotPassword">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/generation_back_icon" />
+
+
+        <TextView
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/baloo"
+            android:text="@string/make_selection"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/allerta"
+            android:text="@string/make_selection_detail"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/lightwhite"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/phone_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/mobile_icon" />
+
+            <TextView
+                android:id="@+id/phone_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@id/phone_icon"
+                android:fontFamily="@font/allerta"
+                android:text="via sms:"
+                android:textAllCaps="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/phone_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone_title"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@id/phone_icon"
+                android:fontFamily="@font/allerta"
+                android:text="0967744***"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/flag_transparent"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/lightwhite"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/email_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/email_icon" />
+
+            <TextView
+                android:id="@+id/mail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@id/email_icon"
+                android:fontFamily="@font/allerta"
+                android:text="via email:"
+                android:textAllCaps="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/mail_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mail_title"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@id/email_icon"
+                android:fontFamily="@font/allerta"
+                android:text="support@gmail.com"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/flag_transparent"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
